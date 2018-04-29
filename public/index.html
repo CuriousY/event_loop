@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Event Loop Demonstration</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container" style="margin-top:10px">
+        <div class="headerSection">
+            <h1>Demonstration of Concurrency model in Javascript</h1>
+        </div>
+        <div id="root" class="row">
+            <div class="col-md-4 stack-section">
+                <div class="stackHeader">Stack Table</div>
+                <div id="stackbody">
+                </div>
+            </div>
+            <div class="col-md-3 gearsection">
+                <div class="imagecontainer">
+                    <h4>Event Loop</h4>
+                    <img src="images/large_gears.gif" />
+                </div>
+            </div>
+            <div class="col-md-4 eventSection">
+                <div class="stack-section">
+                    <div class="stackHeader">Browser API Table</div>
+                    <div id="eventSectionBody" style="height:208px;">
+                    </div>
+                </div>
+                <div class="section-eventqueue">
+                    <div class="stackHeader">Event Queue</div>
+                    <div id="queuebody">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="js/libs/jquery-3.3.1.min.js"></script>
+    <script src="js/libs/react.js"></script>
+    <script src="js/libs/react-dom.js"></script>
+    <script src="js/libs/babel.min.js"></script>
+    <script src="js/index.js" type="text/babel"></script>
+</body>
+
+</html>

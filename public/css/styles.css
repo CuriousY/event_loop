@@ -1,0 +1,86 @@
+.stackHeader
+{
+ background-color:#4c4747;
+ height: 40px;
+ text-align: center;
+ color:#fff;
+ font-weight: bolder;
+}
+
+#stackbody, #eventSectionBody {
+    display: flex;
+    flex-direction: column-reverse;
+    height:250px;
+}
+#stackbody p, #eventSectionBody p {
+    text-align: center;
+    color:#044eab;
+    font-weight: bolder;
+    border-top:1px solid #c50404;    
+    margin : 0;
+    height:30px;
+    background-color: #a1bee2
+}
+
+
+
+.stack-section {
+    height:100%;
+    background-color:#cac0c0;
+    padding : 0;
+    border:1px solid #c50404;
+}  
+
+.section-eventqueue{
+    height:30%;
+    background-color:#cac0c0;
+    padding : 0;
+    border:1px solid #c50404;
+    margin-top:30px;
+    width:500px
+}
+
+.eventSection{
+    flex:1;
+    flex-direction: column-reverse;
+    height:250px;
+}
+
+#queuebody {
+    display: flex;
+    flex-direction: row;
+}
+
+#queuebody div {
+    text-align: center;
+    color:#044eab;
+    font-weight: bolder;
+    width:auto;
+    padding:5px;
+    border-right:1px solid #c50404;    
+    margin : 0;
+    height:33px;
+    background-color: #a1bee2
+}
+
+#btnholder{
+    margin-bottom:10px;
+}
+
+.imagecontainer img {
+    height:100px;
+    width:100px
+}
+
+.imagecontainer{
+    padding-left:50px;
+}
+.gearsection {    
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.headerSection
+{
+    margin-bottom:50px;
+}
